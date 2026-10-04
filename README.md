@@ -33,11 +33,11 @@ It wrote the code, ran away, and now the game is unplayable.
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. Open the game and select a difficulty level (e.g., Normal) from the sidebar.
+2. Enter an initial guess (like "50") in the text input and click "Submit Guess 🚀".
+3. Observe the hint provided (e.g., "📉 Go LOWER!" or "📈 Go HIGHER!").
+4. Adjust your subsequent guesses based on the hints until you guess the correct secret number and win.
+5. Click "New Game 🔁" to reset the board and play again!
 
 **Screenshot** _(optional)_: <!-- Insert a screenshot of your fixed, winning game here -->
 
