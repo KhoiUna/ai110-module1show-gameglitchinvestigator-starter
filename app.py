@@ -71,9 +71,8 @@ with col3:
     show_hint = st.checkbox("Show hint", value=True)
 
 if new_game:
-    st.session_state.attempts = 0
-    st.session_state.secret = random.randint(1, 100)
-    st.success("New game started.")
+    for key in list(st.session_state.keys()):
+        del st.session_state[key]
     st.rerun()
 
 if st.session_state.status != "playing":
