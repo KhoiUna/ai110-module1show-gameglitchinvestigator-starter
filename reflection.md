@@ -39,7 +39,7 @@ Document at least 3 bugs you found. Add rows as needed.
 
 ## 4. What did you learn about Streamlit and state?
 
-- How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit? Every time you click a button, Streamlit redraws the entire page from top to bottom. "Session state" is just a special memory box to save your game's progress between those redraws.
+- How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit? Every time you click a button, Streamlit redraws the entire page from top to bottom. "Session state" is a special memory box to save your game's progress between those redraws.
 
 ---
 
