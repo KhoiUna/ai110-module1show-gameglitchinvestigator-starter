@@ -5,24 +5,25 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
-- List at least two concrete bugs you noticed at the start  
-  (for example: "the hints were backwards").
+- List at least two concrete bugs you noticed at the start?
+  - The hints were backwards
+  - Difficulty levels did not work as expected
 
 **Bug Reproduction Log**
 
 Document at least 3 bugs you found. Add rows as needed.
 
-| Input | Expected Behavior | Actual Behavior | Console Output / Error |
-|-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+| Input                            | Expected Behavior                                                         | Actual Behavior                                     | Console Output / Error | Suspected Code Location |
+| -------------------------------- | ------------------------------------------------------------------------- | --------------------------------------------------- | ---------------------- | ----------------------- |
+| Click on New Game button         | Start a new game, clear the guess input and Game Over message             | Did not clear the input field and Game Over message | none                   | `app.py`                |
+| Wrong hint for the secret number | If the secret is higher than guess, it should say _Go higher_, vice versa | Give the opposite hint                              | none                   | `app.py`                |
+| Click on Difficulty dropdown     | Level Hard should show range 1-100                                        | Range 1-100 is shown for _Difficulty: Normal_       | none                   | `app.py`                |
 
 ---
 
 ## 2. How did you use AI as a teammate?
 
-- Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
+- Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)? Gemini
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion you did not accept as written (including what the AI suggested, why you rejected or changed it, and how you verified your version). It does not have to be a suggestion that was wrong: over-engineered, out of scope, harder to read, or a poor fit for this codebase all count.
 
